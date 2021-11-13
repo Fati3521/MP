@@ -39,7 +39,7 @@ def main() :
         return model
     @st.cache
     def load_scaler():
-        scaler1 = joblib.load(r'strealit_scaler.sav")
+        scaler1 = joblib.load(r"strealit_scaler.sav")
         return scaler1
 
     #@st.cache
