@@ -6,4 +6,4 @@ seaborn
 joblib
 shap
 plotly
-umap
+umap-learn
