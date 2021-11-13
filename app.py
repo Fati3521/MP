@@ -96,7 +96,7 @@ def main() :
     <p style="font-size: 20px; font-weight: bold; text-align:center">INTERPRETATION MODELE PREDICTIF</p>
     """
     
-    """st.markdown(html_temp, unsafe_allow_html=True)
+    st.markdown(html_temp, unsafe_allow_html=True)
     
     #Loading data……
     
@@ -188,7 +188,7 @@ def main() :
         feat_id = st.selectbox("feature", feature)
         box_plotly(brute_app, data_test, chk_id)
     else:
-        st.markdown("<i>…</i>", unsafe_allow_html=True)"""
+        st.markdown("<i>…</i>", unsafe_allow_html=True)
        
 if __name__ == '__main__':
     main()
