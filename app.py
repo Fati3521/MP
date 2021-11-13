@@ -77,11 +77,11 @@ def main() :
         fig = px.box(data_fusion, x="defaut", y=feat_id, points="all")
         st.plotly_chart(fig)
 
-    """data_app = load_data_app()
+    data_app = load_data_app()
     data_test, numero_ouverture = load_data_test()
     targets = data_app.lable.value_counts()
     brute_app=data_brute()
-    feature=['acc_x', 'acc_y', 'acc_z', 'gyr_x', 'gyr_y', 'gyr_z','temp']"""
+    feature=['acc_x', 'acc_y', 'acc_z', 'gyr_x', 'gyr_y', 'gyr_z','temp']
     #print(type(numero_ouverture))
 
     #######################################
